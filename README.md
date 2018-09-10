@@ -1,9 +1,13 @@
 # Sorterad kopia av array
 
 - A-nivå
-- [GitBook](https://coursepress.gitbooks.io/1dv021/content/ovningsuppgifter/del1/sorterad-kopia-av-array/)
+- [GitBook](https://coursepress.gitbook.io/1dv021/ovningsuppgifter/del-1/a-niva/sorterad-kopia-av-array)
+- [Lösningsförslag](github.com/1dv021/exercise-solution-proposals/tree/master/part-1/sorted-array-copy)
 
->__VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbooks.io/1dv021/content/guider/att-komma-igang-med-en-ovningsuppgift/) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+>__VIKTIGT!__ Innan du börjar arbeta med övningsuppgiften är det viktigt att du följer guiden [Att komma igång med en övningsuppgift](https://coursepress.gitbook.io/1dv021/guider/att-komma-igang-med-en-ovningsuppgift) för att lägga till övningsuppgiftens repo till ditt repo för övningsuppgifter.
+
+## Uppgift
 
 Hämta hem övningsuppgiftens repo och lägg till en .gitignore-fil. Öppna filen `my-array.js` och komplettera funktionerna `immutableSort`, som ska returnera en kopia av en array sorterad numeriskt i stigande ordning, och `immutableSortDescending`, som ska returnera en kopia av en array sorterad numeriskt i fallande ordning. Ingen av metoderna får ha några sidoeffekter.
 
@@ -59,7 +63,3 @@ Funktioner, metoder, etc. som __kan__ komma till användning beroende hur du vä
 - [Array.sort](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort)
 - [throw](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/throw)
 - [TypeError](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError)
-
-## Lösningsförslag
-
-- [https://github.com/1dv021/exercise-solution-proposals/tree/master/part-1/sorted-array-copy](github.com/1dv021/exercise-solution-proposals/tree/master/part-1/sorted-array-copy)
