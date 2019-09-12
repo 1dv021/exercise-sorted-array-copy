@@ -8,8 +8,8 @@
 
 'use strict'
 
-let ma = require('../src/my-array')
-let expect = require('chai').expect
+const ma = require('../src/my-array')
+const expect = require('chai').expect
 
 describe('immutableSort', () => {
   it('Must throw a TypeError if the source parameter is not an Array.', done => {
@@ -18,15 +18,15 @@ describe('immutableSort', () => {
   })
 
   it('Must NOT return the same Array object the source parameter refers to.', done => {
-    let arr = [4, 2, 3]
-    let res = ma.immutableSort(arr)
+    const arr = [4, 2, 3]
+    const res = ma.immutableSort(arr)
     expect(res).to.an('array').and.to.not.eql(arr)
     done()
   })
 
   it('The source array must be untouched.', done => {
-    let arr = [4, 2, 3]
-    let res = ma.immutableSort(arr)
+    const arr = [4, 2, 3]
+    const res = ma.immutableSort(arr)
     expect(res).to.an('array')
     expect(arr).to.eql([4, 2, 3])
     done()
@@ -55,16 +55,16 @@ describe('immutableSortDescending', () => {
   })
 
   it('Must NOT return the same Array object the source parameter refers to.', done => {
-    let arr = [4, 20, 3]
-    let res = ma.immutableSortDescending(arr)
+    const arr = [4, 20, 3]
+    const res = ma.immutableSortDescending(arr)
     expect(res).to.be.an('array').and
       .to.not.eql(arr)
     done()
   })
 
   it('The source array must be untouched.', done => {
-    let arr = [4, 2, 3]
-    let res = ma.immutableSortDescending(arr)
+    const arr = [4, 2, 3]
+    const res = ma.immutableSortDescending(arr)
     expect(res).to.be.an('array')
     expect(arr).to.eql([4, 2, 3])
     done()

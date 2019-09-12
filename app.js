@@ -9,7 +9,7 @@
 
 const ma = require('./src/my-array.js')
 
-let originalArray = [2, 5, 1, 6]
+const originalArray = [2, 5, 1, 6]
 
 try {
   console.log('Original array: ', originalArray)
